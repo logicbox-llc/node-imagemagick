@@ -2,9 +2,9 @@
 
 [Imagemagick](http://www.imagemagick.org/) module for [Node](http://nodejs.org/).
 
-You can install this module using [npm](http://github.com/isaacs/npm):
+You can install this module using npm:
 
-    npm install imagemagick
+    npm install im-composite
 
 Requires imagemagick CLI tools to be installed. There are numerous ways to install them. For instance, if you're on OS X you can use [Homebrew](http://mxcl.github.com/homebrew/): `brew install imagemagick`.
 
