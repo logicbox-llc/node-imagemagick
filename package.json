@@ -1,6 +1,6 @@
-{ "name"        : "imagemagick"
+{ "name"        : "im-comp"
 , "description" : "A wrapper around the imagemagick client + the missing composite function (fork from https://github.com/rsms/node-imagemagick)"
-, "version"     : "0.1.3"
+, "version"     : "0.1.4"
 , "author"      : "And Fri"
 , "licenses"    : ["MIT"]
 , "repository"  : { "type" : "git"
