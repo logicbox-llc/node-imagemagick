@@ -1,6 +1,6 @@
 { "name"        : "@chaddjohnson/imagemagick"
 , "description" : "A wrapper around the imagemagick client + the missing composite function (fork from https://github.com/rsms/node-imagemagick)"
-, "version"     : "0.1.5"
+, "version"     : "0.1.6"
 , "author"      : "And Fri"
 , "licenses"    : ["MIT"]
 , "repository"  : { "type" : "git"
