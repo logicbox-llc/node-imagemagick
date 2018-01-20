@@ -4,14 +4,14 @@
 
 You can install this module using npm:
 
-    npm install im-comp
+    npm install @chaddjohnson/imagemagick
 
 Requires imagemagick CLI tools to be installed. There are numerous ways to install them. For instance, if you're on OS X you can use [Homebrew](http://mxcl.github.com/homebrew/): `brew install imagemagick`.
 
 ## Example
 
 ```javascript
-var im = require('im-comp');
+var im = require('@chaddjohnson/imagemagick');
 im.readMetadata('kittens.jpg', function(err, metadata){
   if (err) throw err;
   console.log('Shot at '+metadata.exif.dateTimeOriginal);
