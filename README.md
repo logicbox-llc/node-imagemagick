@@ -4,23 +4,23 @@
 
 You can install this module using npm:
 
-    npm install @chaddjohnson/imagemagick
+    npm install @logicbox-llc/imagemagick
 
 Requires imagemagick CLI tools to be installed. There are numerous ways to install them. For instance, if you're on OS X you can use [Homebrew](http://mxcl.github.com/homebrew/): `brew install imagemagick`.
 
 ## Example
 
 ```javascript
-var im = require('@chaddjohnson/imagemagick');
+var im = require('@logicbox-llc/imagemagick');
 im.readMetadata('kittens.jpg', function(err, metadata){
   if (err) throw err;
   console.log('Shot at '+metadata.exif.dateTimeOriginal);
 })
 // -> Shot at Tue, 06 Feb 2007 21:13:54 GMT
 ```
-   
+
 ...
-   
+
 ## License (MIT)
 
 Copyright (c) 2010-2012 Rasmus Andersson <http://hunch.se/>
