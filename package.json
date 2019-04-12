@@ -1,6 +1,6 @@
 { "name"        : "@logicbox-llc/imagemagick"
 , "description" : "A wrapper around the imagemagick client + the missing composite function (fork from https://github.com/rsms/node-imagemagick)"
-, "version"     : "0.1.7"
+, "version"     : "0.2.0"
 , "author"      : "And Fri"
 , "licenses"    : ["MIT"]
 , "repository"  : { "type" : "git"

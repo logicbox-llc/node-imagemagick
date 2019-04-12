@@ -275,6 +275,20 @@ exports.composite = function(args, timeout, callback) {
 }
 exports.composite.path = 'composite';
 
+exports.mogrify = function(args, timeout, callback) {
+  var procopt = {encoding: 'binary'};
+  if (typeof timeout === 'function') {
+    callback = timeout;
+    timeout = 0;
+  } else if (typeof timeout !== 'number') {
+    timeout = 0;
+  }
+  if (timeout && (timeout = parseInt(timeout)) > 0 && !isNaN(timeout))
+    procopt.timeout = timeout;
+  return exec2(exports.mogrify.path, args, procopt, callback);
+}
+exports.mogrify.path = 'mogrify';
+
 var resizeCall = function(t, callback) {
   var proc = exports.convert(t.args, t.opt.timeout, callback);
   if (t.opt.srcPath.match(/-$/)) {
